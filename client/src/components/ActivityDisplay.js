@@ -5,7 +5,7 @@ const ActivityDisplay = ({ name }) => {
   
   let randColor = fontColors[Math.floor(Math.random() * fontColors.length)];
   return (
-    <h1 id="question">Do you want to <span id='suggestedActivity' style={{color: `${randColor}`}}>{ name }</span> today?</h1>
+    <h1 id="question">Would you like to <span id='suggestedActivity' style={{color: `${randColor}`}}>{ name }</span> today?</h1>
   )
 }
 
